@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Personalizada</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #021b36;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #021b36; /* Cor marinho */
+            color: #fff;
+            padding: 20px 0; /* Aumentado para melhor espaçamento */
+            text-align: center;
+        }
+        .container {
+            width: 70%;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 25px solid #0d3a6b; /* Borda marinho */
+            border-radius: 8px; /* Bordas arredondadas */
+            margin-top: 5%;
+            margin-left: 12%;
+        }
+        h1, h2, p {
+            color: #021b36; /* Cor marinho */
+        }
+        p {
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #021b36; /* Cor marinho */
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        input[type="text"], textarea {
+            border: 1px solid #021b36; /* Borda marinho */
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+            border-radius: 4px; /* Bordas arredondadas */
+        }
+        input[type="submit"] {
+            background: #021b36; /* Cor marinho */
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 4px; /* Bordas arredondadas */
+        }
+        input[type="submit"]:hover {
+            background: #0056b3; /* Cor de hover */
+        }
+        h1{
+            color:rgb(238, 234, 234) ;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Nosso Site!</h1>
+    </header>
+    <div class="container">
+        <h2>Deixe sua Mensagem</h2>
+        <p>Estamos aqui para ouvir você. Assim que possível, retornaremos o contato.</p>
+        <form>
+            <label for="name" style="color: #021b36;">Nome:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="message" style="color: #021b36;">Mensagem:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2023 Seu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
