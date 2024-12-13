@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
        
         if (username === 'admin' && password === '123') {
             alert('Login bem-sucedido!');
-            window.location.href = 'html/admin-dashboard.html'; 
+            window.location.href = 'admin-dashboard.html'; 
         } else {
             showError('Usuário ou senha inválidos.');
         }
